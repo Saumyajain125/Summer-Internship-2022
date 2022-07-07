@@ -1,0 +1,5 @@
+function difference(baseNumber,number){
+    return baseNumber > number? baseNumber - number: (number - baseNumber)*2;
+}
+console.log(difference(13,5));
+console.log(difference(13,15));
